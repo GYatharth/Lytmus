@@ -1,0 +1,9 @@
+langchain
+langchain-groq
+langchain-community
+tavily-python
+faiss-cpu
+sentence-transformers
+streamlit
+python-dotenv
+pydantic

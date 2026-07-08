@@ -61,7 +61,21 @@ distinction, but a research-literature tool has to.
 
 ## Tech stack
 
-Python · LangChain · Groq (fast inference for planning/orchestration) · Tavily API · FAISS · sentence-transformers · Streamlit
+**Core:** Python
+**LLM/inference:** Groq
+**Orchestration:** LangChain (tool-calling agent)
+**Retrieval:** Tavily API (web) · arXiv API (corpus source) · FAISS + BM25 (hybrid vector/keyword search) · cross-encoder reranking
+**Verification:** sentence-transformers (semantic entailment) · custom deterministic scoring formula
+**Graph:** Semantic Scholar API (citation relationships)
+**Backend:** FastAPI
+**Caching/infra:** Redis · PostgreSQL · Celery (background indexing)
+**Frontend:** Streamlit (UI only — talks to FastAPI, not a backend itself)
+**Evaluation:** Ragas / DeepEval + custom precision/recall against a hand-labeled test set
+**Deployment:** Docker + Docker Compose · GitHub Actions CI/CD
+**Supporting:** python-dotenv · pydantic · pytest
+
+Full phased build order in `PLAN.md` — core pipeline first, infra and
+extra features layered on only after the core works end-to-end.
 
 ## Features
 

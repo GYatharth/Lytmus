@@ -3,7 +3,6 @@ __pycache__/
 .env
 .venv/
 venv/
-data/*.index
-data/*.pkl
+data/
 .streamlit/secrets.toml
 .DS_Store

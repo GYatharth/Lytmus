@@ -1,16 +1,3 @@
-# scripts/test_groq.py
-"""
-Groq smoke test — confirms your API key works and shows the raw
-request/response shape before anything gets wrapped in LangChain.
-
-Setup:
-  1. Get a free API key at https://console.groq.com/keys
-  2. Create a .env file in the project root with:
-       GROQ_API_KEY=your_key_here
-  3. pip install -r requirements.txt
-  4. python scripts/test_groq.py
-"""
-
 import os
 
 from dotenv import load_dotenv

@@ -1,6 +1,5 @@
 # Build plan
 
-No hard deadline — paced by milestones completed, not calendar weeks.
 Sequenced deliberately: core pipeline first, THEN retrieval upgrades,
 THEN infra, THEN extra features, THEN production polish. Don't jump
 ahead — Docker around a half-built system teaches you Docker, not
@@ -11,7 +10,7 @@ Lytmus, and you specifically want to understand every layer.
 ## PHASE A — Core pipeline (build this fully before anything else)
 
 ### Milestone 1 — Scaffolding
-- [x] Repo + folder structure
+- [ ] Repo + folder structure
 - [ ] Groq + Tavily API keys wired up, smoke test
 - [ ] Domain: CS/ML research papers (arXiv) — corpus collected, FAISS index built
 
@@ -123,8 +122,7 @@ higher value for less effort; later ones are bigger lifts)
 ---
 
 ## Domain: computer science / ML research (arXiv)
-Chosen over finance/health to match CSE background and because arXiv has
-a free, clean API (no scraping, no auth) — fastest path to a real corpus.
+arXiv has a free, clean API (no scraping, no auth) — fastest path to a real corpus.
 Categories to start with: cs.CL, cs.LG, cs.IR.
 
 ## Architecture target (end state)

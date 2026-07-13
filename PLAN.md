@@ -148,11 +148,3 @@ Citation Graph
 Evaluation (custom + Ragas/DeepEval)
 ↓
 Redis Cache · PostgreSQL · Celery Workers · Docker
-
-## A note on scope
-
-This is a large plan by design — the goal is deep, defensible understanding
-of every layer, not just checking boxes. If any phase starts feeling like
-copy-pasted code you can't explain, stop and go back to the Milestone 0
-warm-up exercises for that concept before continuing. Breadth without
-depth defeats the actual point of this project.

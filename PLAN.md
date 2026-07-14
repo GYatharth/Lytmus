@@ -136,7 +136,7 @@ Hybrid Retrieval (BM25 + FAISS) → Cross-Encoder Reranking
 ↓
 Groq LLM (synthesis)
 ↓
-Verification Engine
+Verification Engine:
 • source agreement
 • semantic entailment
 • numeric contradiction

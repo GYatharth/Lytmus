@@ -23,7 +23,7 @@ Lytmus, and you specifically want to understand every layer.
 - [ ] Agent orchestrator (LangChain tool-calling, merges both retrieval paths)
 - [ ] Synthesis engine (LLM writes cited answer)
 - [ ] Verification layer v1: semantic entailment + source agreement count
-- [ ] Verification layer tuned on 15–20 hand-labeled test queries
+- [ ] Verification layer tuned on 15–20 hand-labeled test queries.
 
 ### Milestone 4 — Research-specific trust features
 - [ ] Numeric contradiction detection (metric/dataset/score triples)
